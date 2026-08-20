@@ -10,7 +10,7 @@
 
 ## Live Demo
 ![Smartsheet API folder monitoring GUI app](https://github.com/ComeG3tSome/JC-Automation-/blob/main/SmartsheetGUIAPP.jpg?raw=true)
-[![Smartsheet API folder monitoring GUI app](https://github.com/ComeG3tSome/JC-Automation-/blob/main/SmartsheetGUIAPP.jpg?raw=true)(https://www.youtube.com/watch?v=O7L47zKL2pU))
+[![Smartsheet API folder monitoring GUI app](https://github.com/ComeG3tSome/JC-Automation-/blob/main/SmartsheetGUIAPP.jpg?raw=true) https://www.youtube.com/watch?v=O7L47zKL2pU)
 
 ## Prerequisites
 
