@@ -11,6 +11,14 @@
 ## Live Demo
 ![Smartsheet API folder monitoring GUI app](https://github.com/ComeG3tSome/JC-Automation-/blob/main/SmartsheetGUIAPP.jpg?raw=true) https://www.youtube.com/watch?v=O7L47zKL2pU
 
+## Installation
+
+1. Install the necessary Python packages required for the script to execute successfully:
+```VS code terminal
+pip install smartsheet-python-sdk
+pip install requests
+```
+
 ## Prerequisites
 
 Before running the application, ensure you have the following: 
