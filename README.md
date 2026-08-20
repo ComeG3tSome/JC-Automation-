@@ -11,7 +11,6 @@
 ## Live Demo
 [![Smartsheet API folder monitoring GUI app](https://youtube.com)](https://www.youtube.com/watch?v=O7L47zKL2pU)
 
-
 ## Prerequisites
 
 Before running the application, ensure you have the following: 
@@ -20,5 +19,14 @@ Before running the application, ensure you have the following:
 * A **Smartsheet Access Token** (generated under *Account > Personal Settings > API Access > Generate new access token*).
 * The **Sheet ID** of the target Smartsheet spreadsheet.
 
-* 
+## Configuration
+The application requires your unique Smartsheet access details to push data. Two files are used to include this data, which are the following: FILEMONITORING_GUI.py and SMARTSHEET_API_SHEET_ID.py.
 
+```python
+# FILEMONITORING_GUI.py
+self.api_token = "your_actual_api_token_here"
+self.sheet_id = 1234567890123456  # Your target sheet ID numbers
+
+# SMARTSHEET_API_SHEET_ID.py
+api_token = "your_actual_api_token_here"
+```
