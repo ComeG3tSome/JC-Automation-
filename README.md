@@ -21,20 +21,28 @@ Before running the application, ensure you have the following:
 
 ## Installation
 
-1. Install the necessary Python packages required for the script to execute successfully:
-```VS code terminal
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/ComeG3tSome/JC-Automation-
+   cd JC-Automation-
+   ``` 
+2.  Install the necessary Python packages required for the script to execute successfully:
+```
 pip install smartsheet-python-sdk
 pip install requests
 ```
 
 ## Configuration
-The application requires your unique Smartsheet access details to push data. Two files are used to include this data, which are the following: FILEMONITORING_GUI.py and SMARTSHEET_API_SHEET_ID.py.
+The application requires your unique Smartsheet access details to push data. Two files are used to include this data, which are the following: FILEMONITORING_GUI.py and SMARTSHEET_API_REQUESTS.py.
 
 ```python
 # FILEMONITORING_GUI.py
 self.api_token = "your_actual_api_token_here"
 self.sheet_id = 1234567890123456  # Your target sheet ID numbers
 
-# SMARTSHEET_API_SHEET_ID.py
+
+# SMARTSHEET_API_REQUESTS.py
 api_token = "your_actual_api_token_here"
+
+
 ```
