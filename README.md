@@ -9,7 +9,7 @@
 * **Error Handling:** Validates folder paths and ensures stable API connectivity during data transfer.
 
 ## Live Demo
-[![Watch the Live Demo](https://youtube.com)](https://www.youtube.com/watch?v=O7L47zKL2pU)
+[![Smartsheet API folder monitoring GUI app](https://youtube.com)](https://www.youtube.com/watch?v=O7L47zKL2pU)
 
 
 ## Prerequisites
