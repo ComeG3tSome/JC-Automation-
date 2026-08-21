@@ -79,6 +79,7 @@ JC-Automation-/
 ├── SMARTSHEET_API_REQUESTS.py   # Handles Smartsheet API requests
 ├── requirements.txt             # Python package dependencies
 ├── README.md                    # Project documentation
+├── .gitignore                   # Specifies files Git should ignore
 ```
 
 ## Licensing
