@@ -1,6 +1,6 @@
-# Smartsheet API folder monitoring application
+# Smartsheet API Folder Monitoring Application
 
-## An automation utility that monitors a local directory to detect new files, extract data from filenames, and send the extracted data directly to a Smartsheet spreadsheet automatically. 
+## An automation utility that monitors a local directory to detect new files, extract data from filenames, and send the extracted data directly to a Smartsheet spreadsheet. 
 
 ## Features
 * **Folder Monitoring:** Tracks a user-selected local directory for newly added files.
@@ -38,11 +38,35 @@ The application requires your unique Smartsheet access details to push data. Two
 ```python
 # FILEMONITORING_GUI.py
 self.api_token = "your_actual_api_token_here"
-self.sheet_id = 1234567890123456  # Your target sheet ID numbers
+self.sheet_id = "your_target_sheet_ID_numbers_" 
 
 
 # SMARTSHEET_API_REQUESTS.py
 api_token = "your_actual_api_token_here"
-
-
 ```
+
+## Usage
+1. Configure your Smartsheet API token and Sheet ID.
+2. Start the application.
+3. Select the folder you want to monitor.
+4. Add a new Word document (`.docx`) to the monitored folder.
+5. The filename must use an underscore (`_`) to separate the employee's first name from the quote number, and the quote number must begin with `Q`.
+6. The application uses everything before the final underscore as the employee's first name and the final portion as the quote number.
+7. For example, a file named `John_Q12345.docx` is interpreted as:
+   - **First Name:** John
+   - **Quote #:** Q12345
+8. The extracted first name and quote number are automatically sent to the configured Smartsheet.
+9. The `.xlsx` files are detected and reported by the application but they are not used for data extraction.
+10. Other file types are reported as invalid.
+
+    
+## Dependencies
+* tkinter
+* requests
+* smartsheet-python-sdk
+* threading
+* os
+  
+## Licensing
+This project is licensed under the [MIT License](https://opensource.org/license/mit).
+
