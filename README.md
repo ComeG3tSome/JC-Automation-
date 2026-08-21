@@ -4,7 +4,7 @@
 
 ## Features
 * **Folder Monitoring:** Tracks a user-selected local directory for newly added files.
-* **Data Extraction:** Automatically parses the employee name and quote number from Word document filenames.
+* **Data Extraction:** Automatically parses the employee's first name and quote number from Word document filenames.
 * **Instant Smartsheet Updates:** Transmits extracted data directly to your sheet via the Smartsheet API without manual entry.
 * **Error Handling:** Validates folder paths and ensures stable API connectivity during data transfer.
 
@@ -37,12 +37,12 @@ The application requires your unique Smartsheet access details to push data. Two
 
 ```python
 # FILEMONITORING_GUI.py
-self.api_token = "your_actual_api_token_here"
-self.sheet_id = "your_target_sheet_ID_numbers_" 
+self.api_token = "YOUR_ACTUAL_API_TOKEN_HERE"
+self.sheet_id = "YOUR_TARGET_SHEET_ID" 
 
 
 # SMARTSHEET_API_REQUESTS.py
-api_token = "your_actual_api_token_here"
+api_token = "YOUR_ACTUAL_API_TOKEN_HERE"
 ```
 
 ## Usage
@@ -61,9 +61,13 @@ api_token = "your_actual_api_token_here"
 
     
 ## Dependencies
-* tkinter
+
+### External Packages
 * requests
 * smartsheet-python-sdk
+
+### Python Standard Library
+* tkinter
 * threading
 * os
   
