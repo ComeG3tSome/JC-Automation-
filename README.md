@@ -80,6 +80,8 @@ JC-Automation-/
 ├── requirements.txt             # Python package dependencies
 ├── README.md                    # Project documentation
 ├── .gitignore                   # Specifies files Git should ignore
+├── SmartsheetGUIAPP.jpg         # Screenshot of the application
+├── LICENSE                      # MIT License
 ```
 
 ## Licensing
