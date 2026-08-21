@@ -70,7 +70,17 @@ api_token = "YOUR_ACTUAL_API_TOKEN_HERE"
 * tkinter
 * threading
 * os
-  
+
+## Project structure
+
+```text
+JC-Automation-/
+├── FILEMONITORING_GUI.py        # Main GUI and folder monitoring application
+├── SMARTSHEET_API_REQUESTS.py   # Handles Smartsheet API requests
+├── requirements.txt             # Python package dependencies
+├── README.md                    # Project documentation
+```
+
 ## Licensing
 This project is licensed under the [MIT License](https://opensource.org/license/mit).
 
