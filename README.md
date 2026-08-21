@@ -1,6 +1,6 @@
 # Smartsheet API Folder Monitoring Application
 
-## An automation utility that monitors a local directory to detect new files, extract data from filenames, and send the extracted data directly to a Smartsheet spreadsheet. 
+## An automation utility that monitors a local directory to detect new files, extract data from filenames, and send the extracted data directly to a Smartsheet spreadsheet.
 
 ## Features
 * **Folder Monitoring:** Tracks a user-selected local directory for newly added files.
