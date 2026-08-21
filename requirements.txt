@@ -1,0 +1,2 @@
+smartsheet-python-sdk
+requests
